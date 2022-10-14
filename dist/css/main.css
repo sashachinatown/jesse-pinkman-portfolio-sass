@@ -290,6 +290,14 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 400px) {
+  .contact h2 {
+    margin-left: 10vw;
+  }
+  .contact__list {
+    font-size: 1.25rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
