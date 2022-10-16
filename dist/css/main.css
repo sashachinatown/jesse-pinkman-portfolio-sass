@@ -290,7 +290,44 @@
   margin-top: 2rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 220px) {
+  .home {
+    padding-top: 20vh;
+  }
+  .home > h2 {
+    font-size: 1rem;
+  }
+  .home__name, .home__name--last {
+    font-size: 2rem;
+  }
+  .footer-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-icons {
+    display: flex;
+    scale: 50%;
+    flex-direction: row;
+    margin-left: -0.75rem;
+    margin-bottom: 1rem;
+  }
+  .contact h2 {
+    margin-left: 10vw;
+  }
+  .contact__list {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 220px) and (max-width: 400px) {
+  .home {
+    font-size: 0.75rem;
+  }
+  .home__name, .home__name--last {
+    font-size: 3rem;
+  }
+  .social-icons {
+    scale: 80%;
+  }
   .contact h2 {
     margin-left: 10vw;
   }

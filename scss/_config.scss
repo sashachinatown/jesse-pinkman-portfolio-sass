@@ -19,8 +19,14 @@ $secondary-color: #2fff7f;
     }
 }
 
+@mixin media-xs {
+    @media screen and (max-width: 220px){
+        @content;
+    }
+}
+
 @mixin media-sm {
-    @media screen and (max-width: 400px){
+    @media screen and (min-width: 220px) and (max-width: 400px){
         @content;
     }
 }

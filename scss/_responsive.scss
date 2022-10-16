@@ -1,4 +1,54 @@
+@include media-xs {
+    .home {
+        padding-top: 20vh;
+    }
+
+    .home > h2 {
+        font-size: 1rem;
+    }
+
+    .home__name, .home__name--last {
+        font-size: 2rem;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+        // margin-top: 2rem;
+    }
+
+    .social-icons{
+        display: flex;
+        scale: 50%;
+        flex-direction: row;
+        margin-left: -0.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact {
+        h2 {
+            margin-left: 10vw;
+        }
+
+        &__list {
+            font-size: 1.25rem;
+        }
+    }
+}
+
 @include media-sm {
+    .home {
+        font-size: 0.75rem;
+    }
+
+    .home__name, .home__name--last {
+        font-size: 3rem;
+    }
+
+    .social-icons{
+        scale: 80%;
+    }
+
     .contact {
         h2 {
             margin-left: 10vw;
